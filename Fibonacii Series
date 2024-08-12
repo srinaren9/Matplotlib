@@ -1,0 +1,11 @@
+#Fibnocaii Series and its sqrt graph
+import numpy as np
+import matplotlib.pyplot as plt
+
+fibb=[0,1,1,2,3,5,8,13,21,34]
+sqfibb=np.sqrt(fibb)
+
+plt.plot(range(1,11),fibb,markersize=5,ls='solid',color='k',marker='+',markeredgecolor='r')
+plt.plot(range(1,11),sqfibb,markersize=5,ls='solid',color='b',marker='o',markeredgecolor='r')
+plt.grid()
+plt.show()
