@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+
+score=[99,98,45,76,85,94]
+test=[1,2,3,4,5,6]
+plt.plot(test,score)
+plt.xlabel=("Test Count")
+plt.ylabel=("Score")
+plt.plot(test,score)
+plt.show()
