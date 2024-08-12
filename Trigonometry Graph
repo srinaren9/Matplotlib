@@ -1,0 +1,14 @@
+#Trigonometry graph using various tools of matplotlib
+import matplotlib.pyplot as plt
+import numpy as np
+
+x=np.arange(0,90,15)
+a=np.cos(x)
+b=np.tan(x)
+c=np.sin(x)
+
+plt.plot(x,a,linewidth=2,ls='dashdot',color='g')
+plt.plot(x,b,linewidth=1,ls='dotted',color='r')
+plt.plot(x,c,linewidth=3,ls='dashed',color='b')
+plt.grid()
+plt.show()
