@@ -1,0 +1,16 @@
+#Multiple Lines with nested lists
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+data=[[5,25,45,20],[8,13,29,27],[9,29,27,39],[10,12,32,23]]
+k=[1,2,3,4]
+x=np.arange(4)
+plt.plot(k,data[0],color='b',label='range1')
+plt.plot(k,data[1],color='g',label='range2')
+plt.plot(k,data[2],color='r',label='range3')
+plt.plot(k,data[3],color='c',label='range4')
+plt.legend()
+plt.xlabel("X")
+plt.ylabel("Y")
+plt.show()
