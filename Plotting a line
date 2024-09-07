@@ -1,0 +1,11 @@
+#How to plot a line
+
+import matplotlib.pyplot as plt
+week=[1,2,3,4,5]
+price=[20,23,21,35,17.2]
+
+plt.plot(week,price)
+plt.grid()
+plt.xlabel("Week")
+plt.ylabel("Onion Prices")
+plt.show()
