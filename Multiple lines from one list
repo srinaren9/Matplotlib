@@ -1,0 +1,12 @@
+#Multiple lines from one list
+import matplotlib.pyplot as plt
+import numpy as np
+
+data=[[5,25,45,20],[8,13,29,27],[9,29,27,39]]
+X=np.arange(4)
+
+plt.plot(X,data[0])
+plt.plot(X,data[1])
+plt.plot(X,data[2])
+plt.grid()
+plt.show()
