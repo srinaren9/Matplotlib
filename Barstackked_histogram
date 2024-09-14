@@ -1,0 +1,10 @@
+#Barstackked histogram
+import matplotlib.pyplot as plt
+import numpy as np
+mu=100
+sigma=15
+x=mu+sigma*np.random.randn(1000000)
+y=mu+30*np.random.randn(1000000)
+plt.hist([x,y],bins=2000,histtype='barstacked')
+plt.title("Research Data Histogram")
+plt.show()
