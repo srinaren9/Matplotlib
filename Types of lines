@@ -1,0 +1,12 @@
+#Program to plot a graph with diff linewidth, linestyle
+#Types of lines
+import matplotlib.pyplot as plt
+import numpy as np
+x=np.arange(0.,10,0.1)
+a=np.cos(x)
+b=np.sin(x)
+c=np.tan(x)
+plt.plot(x,a,linewidth=2,ls='dashdot')
+plt.plot(x,b,linewidth=4,ls='dashed')
+plt.plot(x,c,linewidth=2,ls='dotted')
+plt.show()
