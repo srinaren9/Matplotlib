@@ -1,0 +1,9 @@
+#First 10 terms of fibonacci stored in list. Write a program to plot fib terms 
+import matplotlib.pyplot as plt
+import numpy as np
+fib=[0,1,1,2,3,5,8,13,21,34]
+sqfib=np.sqrt(fib)
+plt.figure(figsize=(10,7))
+plt.plot(range(1,11),fib,'co',markersize=5,linestyle='solid',marker edge color='r')
+plt.plot(range(1,11),sqfib,'kt',markersize=7,linestyle='solid',marker edge color='r')
+plt.show()
