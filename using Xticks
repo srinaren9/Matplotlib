@@ -1,0 +1,11 @@
+#Using xticks
+import matplotlib.pyplot as plt
+import numpy as np
+collection=[8000,12000,9800,11200,15500,7300]
+x=np.arange(6)
+plt.title('Volunteering week collection')
+plt.bar(x,collection,color='cyan',width=.25)
+plt.xticks(x,['A','B','C','D','E','F'])
+plt.xlabel("Section")
+plt.ylabel("Collections")
+plt.show()
