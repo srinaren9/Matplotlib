@@ -1,0 +1,17 @@
+#Mutliple bar graphs for one xaxis value
+#Program to plot a line chart for the medals won by 4 countries
+import matplotlib.pyplot as plt
+import numpy as np
+info=['Gold','Silver','Bronze','Total']
+aus=[80,59,59,198]
+eng=[45,45,46,136]
+can=[15,40,27,82]
+ind=[26,20,20,66]
+x=np.arange(len(info))
+plt.plot(info,aus,color='m')
+plt.plot(x+0.15,eng,color='k')
+plt.plot(x+0.30,ind,color='g')
+plt.plot(x+0.45,can,color='r')
+plt.xlabel("Medal Type")
+plt.ylabel("Top four contry's tally")
+plt.show()
